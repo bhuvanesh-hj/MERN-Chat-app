@@ -22,7 +22,8 @@ import animationData from "../animations/typing.json";
 
 // connecting with the socket from the backend
 import io from "socket.io-client";
-const ENDPOINT = "http://localhost:4400";
+// const ENDPOINT = "http://localhost:4400";
+const ENDPOINT = "https://chat-app-zd2a.onrender.com";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
